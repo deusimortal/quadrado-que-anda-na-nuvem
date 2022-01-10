@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+<script src="./p5.play.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script> 
+<script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+<script>
+  const firebaseConfig = {
+  apiKey: "AIzaSyDZkcyfs8LwKKje6N5sK8P5y3DN8jvTOjU",
+  authDomain: "quadrado-andante.firebaseapp.com",
+  databaseURL: "https://quadrado-andante-default-rtdb.firebaseio.com",
+  projectId: "quadrado-andante",
+  storageBucket: "quadrado-andante.appspot.com",
+  messagingSenderId: "271891738246",
+  appId: "1:271891738246:web:0533a2172cfb95e2ed2b07"
+};
+
+//const app = initializeApp(firebaseConfig);
+  firebase.initializeApp(firebaseConfig);
+</script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+  </body>
+</html>
